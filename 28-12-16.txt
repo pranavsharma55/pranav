@@ -1,0 +1,75 @@
+var a = 5;
+undefined
+typeof a
+"number"
+var b = "pranav";
+undefined
+typeof b 
+"string"
+var arr = [];
+undefined
+typeof arr
+"object"
+var a = new Number(5);
+undefined
+typeof a
+"object"
+var str = new string ("name");
+var str = new String ("name");
+undefined
+typeof str
+"object"
+var a = 5;
+undefined
+typeof a
+"number"
+var b = a ;
+undefined
+b
+5
+b = 6
+6
+var bool1 = true; 
+undefined
+bool1
+true
+var bool2 = bool1;
+undefined
+bool2
+true
+bool2 = false ;
+false
+bool2
+false
+var obj = {name : 'pranav', age : '34'} ; 
+undefined
+typeof obj
+"object"
+var obj1 =obj
+undefined
+obj1
+Object {name: "pranav", age: "34"}
+obj1.name = "akshay"
+"akshay"
+obj1
+Object {name: "akshay", age: "34"}
+obj1.age = 28
+28
+obj1
+Object {name: "akshay", age: 28}
+delete obj1.age
+true
+obj1
+Object {name: "akshay"}
+var obj1 = {name : 'pranav', age : 24 }
+undefined
+var obj2 = obj1
+undefined
+obj2
+Object {name: "pranav", age: 24}
+obj2.name = 'akshay'
+"akshay"
+obj2
+Object {name: "akshay", age: 24}
+obj1
+Object {name: "akshay", age: 24}
